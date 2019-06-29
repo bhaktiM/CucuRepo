@@ -1,7 +1,8 @@
 package com.basic;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+//import org.testng.Assert;
+//import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -19,7 +20,7 @@ public class TestingGoggle {
 	}
 	
 	
-	@Test 
+//	@Test 
 	public void testGoggle(){
 			
 				Response res = RestAssured.given().get("https://www.google.com/");
